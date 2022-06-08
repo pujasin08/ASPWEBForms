@@ -24,7 +24,7 @@ namespace ASPWEBForms
 /// table created EmpInfo with param EmpId,EmpName,Gender
 
 /// </summary>
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-PUJA;Initial Catalog=Demo;User ID=sa;Password=******passwordofserver");
+        SqlConnection con = new SqlConnection("Data Source=DESKTOP-PUJA;Initial Catalog=Demo;User ID=sa;Password=sql@2019");
         protected void BtnAdd_Click(object sender, EventArgs e)
         {
             

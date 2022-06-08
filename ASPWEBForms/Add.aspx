@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+    <a href = "/Email.aspx">Send Email Attachment</a>
     <form id="form1" runat="server">
         <div>
             <div style="font-size:x-large;text-align:center">Student Info Page</div>
@@ -59,13 +60,10 @@
         <p>
             &nbsp;</p>
             <asp:Button ID="BtnAdd" runat="server" BackColor="Green" Font-Bold="True" ForeColor="White" Height="49px" Text="Add" Width="152px" OnClick="BtnAdd_Click" />
-            <asp:Button ID="BtnDelete" runat="server" BackColor="Red" EnableViewState="False" ForeColor="White" Height="47px" style="margin-top: 0px" Text="Delete" Width="168px" />
         <p>
             <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" ForeColor="#003366" OnClick="LinkButton1_Click">Export To Excel</asp:LinkButton>
         </p>
-        <p>
-            <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" ForeColor="#003366" OnClick="LinkButton2_Click">Send File</asp:LinkButton>
-        </p>
+       
     </form>
 </body>
 </html>

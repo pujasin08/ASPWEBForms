@@ -8,6 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+         <a href = "/Add.aspx">Export As Excel</a>
         <div>
             <asp:Label ID="Label1" runat="server" Font-Bold="True" ForeColor="#003366" Text="Attach File"></asp:Label>
         </div>
